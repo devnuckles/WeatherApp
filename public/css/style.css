@@ -1,8 +1,8 @@
 .container {
     width: 40%;
-    height: 700px;
+    height: 665px;
     margin: auto;
-    padding: 40px 0px;
+    padding: 20px 10px 0 10px;
     /* margin-top: 80px; */
     border-radius: 10px;
     /* background-image: linear-gradient(135deg, #1839cc 0%, #764ba2 100%); */
@@ -18,8 +18,7 @@
 }
 .header-top input {
     display: flex;
-    width: 362px;
-    height: 68px;
+    padding: 15px 70px;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -33,8 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 68px;
-    height: 68px;
+    width: 50px;
+    height: 50px;
     background: #ebfffc;
     border-radius: 50%;
     cursor: pointer;
@@ -52,21 +51,21 @@
     text-align: center;
     background: rgb(255, 159, 28);
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 30px;
 }
 .current-temp {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 400;
 }
 .current-location {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
 }
 .weather-data-wrapper {
@@ -85,7 +84,7 @@
     margin-top: 15px;
 }
 .weather-data-wrapper .element .data {
-    font-size: 34px;
+    font-size: 25px;
     font-weight: 400;
 }
 .weather-data-wrapper .element .data .text {
